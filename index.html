@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Especially43 - Ultimate Games Collection</title>
-    <meta name="description" content="Play 60+ free online games instantly! Action, puzzle, restaurant management, adventure games and more. No downloads, no registration required.">
+    <meta name="description" content="Play 70+ free online games instantly! Action, puzzle, restaurant management, adventure games and more. No downloads, no registration required.">
     <meta name="keywords" content="free online games, browser games, Papa's games, action games, puzzle games, flash games, unblocked games">
     <meta name="author" content="Especially43">
     <meta name="robots" content="index, follow">
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="">
+    <meta property="og:url" content="https://especially43.github.io/">
+     <meta property="og:image" content="https://especially43.github.io/og-image.jpg">
     <meta property="og:title" content="Especially43 - Ultimate Free Games Collection">
     <meta property="og:description" content="Discover amazing free online games! Play instantly in your browser.">
     <meta property="og:site_name" content="Especially43">
@@ -820,25 +821,25 @@
         }
 
         /* Panic Button */
-        .panic-btn {
-            position: fixed;
-            bottom: 2rem;
-            right: 2rem;
-            width: 60px;
-            height: 60px;
-            background: linear-gradient(135deg, #ff4757, #ff3838);
-            color: white;
-            border: none;
-            border-radius: 50%;
-            font-size: 1.5rem;
-            cursor: pointer;
-            transition: var(--transition);
-            z-index: 1001;
-            box-shadow: var(--shadow-lg);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
+.panic-btn {
+    position: static; /* remove fixed */
+    margin-top: 1rem;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, #ff4757, #ff3838);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: var(--transition);
+    box-shadow: var(--shadow-lg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto; /* center in footer */
+}
 
         .panic-btn:hover {
             transform: scale(1.1);
@@ -986,6 +987,27 @@
         ::-webkit-scrollbar-thumb:hover {
             background: var(--border-hover);
         }
+.exit-panic-btn {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background: #ff4757;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.25rem;
+    border-radius: var(--radius-md);
+    font-weight: 600;
+    cursor: pointer;
+    z-index: 2000;
+    box-shadow: var(--shadow-lg);
+    display: none;
+}
+
+.exit-panic-btn:hover {
+    background: #ff3838;
+}
+
+        
     </style>
 </head>
 <body>
@@ -1000,7 +1022,7 @@
                     <li><a href="#home" class="nav-link active">Home</a></li>
                     <li><a href="#games" class="nav-link">Games</a></li>
                     <li><a href="#categories" class="nav-link">Categories</a></li>
-                    <li><a href="#about" class="nav-link">About</a></li>
+                   <!-- <li><a href="#about" class="nav-link">About</a></li> -->
                 </ul>
             </nav>
         </div>
@@ -1114,13 +1136,14 @@
             <div class="footer-panic">
                 Press <code>`</code> key or click the red button for School Panic Mode
             </div>
-        </div>
-    </footer>
-
-    <button class="panic-btn" id="panic-btn" title="School Panic Mode (` key)" aria-label="School Panic Mode">
+        <button class="panic-btn" id="panic-btn" title="School Panic Mode (` key)" aria-label="School Panic Mode">
         🚨
     </button>
-
+        </div>
+    </footer>
+<button class="exit-panic-btn" id="exit-panic-btn">
+    ❌ Exit Panic Mode
+</button>
     <script>
         // Enhanced game data with better categorization and descriptions
         const gamesData = [
@@ -1928,13 +1951,24 @@
             }
         }
 
-        function togglePanicMode() {
-            document.body.classList.toggle('panic-mode');
-            
-            // Store panic mode state
-            const isPanicMode = document.body.classList.contains('panic-mode');
-            localStorage.setItem('gamehub-panic-mode', isPanicMode);
-        }
+        function togglePanicMode(forceOff = false) {
+    const isActive = document.body.classList.contains('panic-mode');
+
+    if (forceOff || isActive) {
+        document.body.classList.remove('panic-mode');
+        document.getElementById('exit-panic-btn').style.display = 'none';
+        localStorage.setItem('gamehub-panic-mode', false);
+    } else {
+        document.body.classList.add('panic-mode');
+        document.getElementById('exit-panic-btn').style.display = 'block';
+        localStorage.setItem('gamehub-panic-mode', true);
+    }
+}
+
+// Exit button listener
+document.getElementById('exit-panic-btn').addEventListener('click', () => {
+    togglePanicMode(true);
+});
 
         function handleScroll() {
             const scrolled = window.scrollY > 50;

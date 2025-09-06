@@ -886,10 +886,24 @@
                 text-align: center;
             }
 
-            .nav {
-                gap: 1rem;
-            }
+   .nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+ .nav-link {
+    display: inline-block;
+    padding: 0.75rem 1rem;
+    border-radius: var(--radius-md);
+    font-size: 1rem;
+    width: 100%; /* full-width buttons on mobile */
+    text-align: center;
+  }
 
+  .nav-link.active {
+    background: var(--primary) !important;
+    color: #fff !important;
+  }
             .hero {
                 padding: 3rem 1rem;
             }

@@ -1,5 +1,4 @@
-<script>
-        // Enhanced game data with better categorization and descriptions
+  // Enhanced game data with better categorization and descriptions
         const gamesData = [
             { 
                 name: "Adrenaline Challenge", 
@@ -957,4 +956,3 @@ document.getElementById('exit-panic-btn').addEventListener('click', () => {
         window.addEventListener('beforeunload', () => {
             clearTimeout(searchTimeout);
         });
-    </script>

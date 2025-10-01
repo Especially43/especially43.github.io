@@ -1,53 +1,155 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
 <url>
-        <loc>https://especially43.github.io/</loc>
-        <changefreq>weekly</changefreq>
-        <priority>1.0</priority>
+  <loc>https://especially43.github.io/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>1.0</priority>
 </url>
+
 <url>
-        <loc>https://especially43.github.io/coreball/</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
+  <loc>https://especially43.github.io/coreball/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
 </url>
+
 <url>
-        <loc>https://especially43.github.io/My2048/</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
+  <loc>https://especially43.github.io/My2048/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
 </url>
+
 <url>
-        <loc>https://especially43.github.io/2048-game-ja/</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
+  <loc>https://especially43.github.io/2048-game-ja/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
 </url>
+
 <url>
-        <loc>https://especially43.github.io/blockblastunblocked/</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
+  <loc>https://especially43.github.io/blockblastunblocked/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
 </url>
+
 <url>
-        <loc>https://especially43.github.io/cookieclicker/</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
+  <loc>https://especially43.github.io/cookieclicker/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
 </url>
+
 <url>
-        <loc>https://especially43.github.io/Flappy-2048/</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
+  <loc>https://especially43.github.io/Flappy-2048/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
 </url>
+
 <url>
-        <loc>https://especially43.github.io/590295810358705700000/</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
+  <loc>https://especially43.github.io/2048/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
 </url>
+
 <url>
-        <loc>https://especially43.github.io/2048-game/</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
+  <loc>https://especially43.github.io/2048-game/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
 </url>
+
 <url>
-        <loc>https://especially43.github.io/2018-contest/</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
+  <loc>https://especially43.github.io/2018-contest/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
 </url>
+
+<!-- All 2048 variations -->
+<url><loc>https://especially43.github.io/2048/144.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/1610612736.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/2584.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/5559060566555523.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/8944394323791464.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/9007199254740992.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/ai.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/animated2048.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/auto_flappy.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/classic.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/cross1.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/cross2.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/cube.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/delirium.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/diagonal-3x3.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/diagonal-5x5.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/diagonal-6x6.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/diagonal-8x8.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/diagonal.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/dive.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/dontmake137438953472.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/dontmake2048.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/dontmake256.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/dontmake4194304.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/dontmake65536.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/double.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/error404.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/fibonacci-16x16.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/fibonacci-3x3.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/fibonacci-5x5.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/fibonacci-6x6.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/fibonacci-8x8.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/fibonacci.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/finals-3x3.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/finals-5x5.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/finals-6x6.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/finals-8x8.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/finals.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/flappy48.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/hex-2.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/hex-3.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/hex.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/hypercube.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/line.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/mode_negative.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/negative-16x16.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/negative-3x3.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/negative-5x5.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/negative-6x6.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/negative-8x8.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/negative.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/power3-16x16.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/power3-3x3.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/power3-5x5.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/power3-6x6.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/power3-8x8.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/power3.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/puzzle.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/reverse-3x3.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/reverse-5x5.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/reverse-6x6.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/reverse-8x8.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/reverse.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/size16.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/size2.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/size3.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/size32.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/size4.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/size5.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/size6.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/size8.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/skin_bkb.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/skin_chemistry.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/skin_santi.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/skin_shito.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/tesseract.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/threes-16x16.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/threes-3x3.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/threes-5x5.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/threes-6x6.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/threes-8x8.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/threes.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/to-n-3x3.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/to-n-5x5.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/to-n-6x6.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/to-n-8x8.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/to-n.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/unlimited.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/verydicey.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://especially43.github.io/2048/versus.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
 </urlset>

@@ -14,6 +14,12 @@
 </url>
 
 <url>
+  <loc>https://especially43.github.io/minesweeper-google/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+
+<url>
   <loc>https://especially43.github.io/2048dbz/</loc>
   <changefreq>monthly</changefreq>
   <priority>0.8</priority>

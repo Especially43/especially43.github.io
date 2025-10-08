@@ -56,6 +56,12 @@
 </url>
 
 <url>
+  <loc>https://especially43.github.io/2048-onepiece/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+  
+  <url>
   <loc>https://especially43.github.io/2048-game-ja/</loc>
   <changefreq>monthly</changefreq>
   <priority>0.8</priority>

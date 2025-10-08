@@ -4,6 +4,7 @@
   { name: "2048 DBZ", url: "https://especially43.github.io/2048dbz/", category: "Puzzle", description: "A fun & challenging 2048 DBZ puzzle game." },
   { name: "2048 Flappy", url: "https://especially43.github.io/2048-flappy/", category: "Puzzle", description: "A fun & challenging 2048 Flappy puzzle game." },
   { name: "2048 Mario", url: "https://especially43.github.io/2048-mario/", category: "Puzzle", description: "A fun & challenging 2048 Mario puzzle game." },
+  { name: "2048 One Piece", url: "https://especially43.github.io/2048-onepiece/", category: "Puzzle", description: "A fun & challenging 2048 One Piece puzzle game." },
   { name: "1", url: "https://especially43.github.io/game/1/", category: "Arcade", description: "A classic arcade-style game." },
   { name: "10 Minutes Till Dawn", url: "https://especially43.github.io/game/10-minutes-till-dawn/", category: "Arcade", description: "A classic arcade-style game." },
   { name: "100Ng", url: "https://especially43.github.io/game/100ng/", category: "Arcade", description: "A classic arcade-style game." },
